@@ -28,7 +28,7 @@ public class Antivirus {
     @OneToMany(mappedBy = "antivirus")
     private List<Customer> customerList;
 
-    public Antivirus(int i, String name, String producer, String description, boolean supportMultiPlatform, Date releaseDate) {
+    public Antivirus(int i, java.lang.String name, java.lang.String producer, java.lang.String description, boolean supportMultiPlatform, java.util.Date releaseDate) {
     }
 
     @Override
